@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 4vw;
+}
+
+#home{
+    display: flex;
+    height: 70vh;
+}
+
+#home #left{
+    width: 50%;
+    padding: 10vh;
+    background-color: rgb(248, 248, 249);
+}
+#home #left h1{
+    font-size: 5vw;
+    font-weight:900;
+    letter-spacing: -0.2vw;
+    line-height: 0.9;
+    margin-bottom: 2vh;
+}
+
+#home #right img{
+    height: 70vh;
+    width: 50vw;
+    opacity: 0.9;
+}
+
+#home #left button{
+    height: 40px;
+    width: 150px;
+    margin: 5vh 0vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+#features{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+
+#features .feature{
+    padding: 8vh 5vw ;
+}
+
+#features .feature h2{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#features #one{
+    background-color: rgb(0, 0, 0);
+}
+
+#features #two{
+    background-color: rgb(133, 207, 236) ;
+}
+
+#features #three{
+    background-color: rgb(26, 172, 230) ;
+}
+
+#about{
+    padding: 6vh 15vw;
+    text-align: center;
+}
+
+#about #icon{
+    font-size: 50px;
+}
+#about h2{
+    margin: 3vh;
+}
+
+#about button{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    margin: 5vh 0vw 0vh 0vw;
+}
+
+#work{
+    height: 60vh;
+    display: flex;
+}
+
+#work #left{
+    width: 45vw;
+    height: 60vh;
+}
+
+#work #left img{
+    height: 60vh;
+    width: 45vw;
+}
+#work #right{
+    width: 55vw;
+    padding: 5vh 5vw;
+    color: white;
+    overflow: hidden;
+    background-color:rgb(45, 200, 200);
+}
+
+#work #right h2{
+    margin: 3vh;
+}
+
+#work #right #p1{
+    margin: 3vh;
+}
+
+#work #right #p2{
+    margin: 3vh;
+}
+
+#work #right button{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    margin: 3vh;
+    background-color: white;
+    color: rgb(22, 235, 235);
+    border: none;
+    border-radius: 20px;
+
+}
+
+#services{
+    padding: 10vh 5vw;
+    text-align: center;
+}
+
+#services #shead{
+    text-align: center;
+    line-height: 1.5;
+}
+
+#services .serviceSection{
+    display: flex;
+    margin-top: 12vh;
+    justify-content: space-between;
+}
+
+.service{
+    width: 25vw;
+}
+
+#services i{
+    padding: 3vh 1.5vw;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(45, 200, 200) ;
+    border-radius: 50px;
+}
+
+#services h3{
+    margin: 5vh 0vw 3vh 0vw;
+}
+
+#sfoot{
+    margin: 6vh;
+}
+
+#sfoot button{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-weight:bold;
+}
+
+
+
+
+#home2{
+    display: flex;
+    height: 70vh;
+}
+
+#home2 #left{
+    width: 50%;
+    padding: 10vh;
+    background-color: rgb(248, 248, 249);
+}
+
+#home2 #left h2{
+    margin: 3vh;
+}
+#home2 #left #p1{
+    margin: 3vh;
+}
+#home2 #left #p2{
+    margin: 3vh;
+}
+
+
+#home2 #right img{
+    height: 70vh;
+    width: 50vw;
+}
+
+#home2 #left button{
+    height: 40px;
+    width: 150px;
+    margin: 5vh 0vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+#contact{
+    padding: 5vh 10vw;
+    color: white;
+    background-color: rgb(45, 200, 200) ;
+    display: flex;
+}
+
+#contact #left{
+    width: 70vw;
+}
+#contact #left h3{
+    margin: 3vh 0vw 0vh 0vw;
+}
+#contact #right{
+    width: 30vw;
+
+}
+
+
+#contact #right button{
+    height: 35px;
+    width: 130px;
+    margin-top: 10vh;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(22, 235, 235);
+    border: none;
+    border-radius: 20px;
+}
+
+#footer{
+    text-align: center;
+    height: 40vh;
+}
+
+#footer h2{
+    margin-top: 5vh;
+}
+
+#footer button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    border: none;
+    border-radius: 1px;
+    margin-top: 22vh;
+}
